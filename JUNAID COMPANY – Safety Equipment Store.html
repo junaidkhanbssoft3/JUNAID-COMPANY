@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>JUNAID COMPANY – Industrial Safety Equipment</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap">
+<style>
+:root{--navy:#10243A;--yel:#FFC928;--bg:#fff;--soft:#F4F6F8;--ink:#222831;--steel:#82909C;--card:#fff;--line:#e1e6ea;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#0b1826;--soft:#10243A;--ink:#eef2f5;--card:#152e48;--line:#27415b}}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.6 Manrope,system-ui,sans-serif}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+a{color:inherit}button{font:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--yel);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.bar{background:var(--yel);color:var(--navy);font-weight:600;font-size:13px;text-align:center;padding:6px 12px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--navy);color:#fff;transition:box-shadow .3s,background .3s}
+nav.s{box-shadow:0 6px 24px #0006;background:#0b1b2d}
+nav .wrap{display:flex;align-items:center;gap:20px;height:64px}
+.logo{font-weight:800;letter-spacing:.04em;text-decoration:none;display:flex;align-items:center;gap:8px}
+.logo i{width:26px;height:26px;background:var(--yel);clip-path:polygon(50% 0,100% 40%,100% 100%,0 100%,0 40%)}
+.links{display:flex;gap:22px;margin-left:auto}.links a{text-decoration:none;font-weight:600;font-size:15px;opacity:.85;padding:4px 0;border-bottom:2px solid transparent;transition:.2s}
+.links a:hover{opacity:1;border-color:var(--yel)}
+.ic{background:none;border:0;color:#fff;position:relative;padding:8px;display:grid;place-items:center}
+.ic svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:2}
+.badge{position:absolute;top:0;right:0;background:var(--yel);color:var(--navy);font-size:11px;font-weight:800;border-radius:9px;min-width:18px;height:18px;display:grid;place-items:center}
+.pop{animation:pop .35s}@keyframes pop{50%{transform:scale(1.5)}}
+.btn{background:var(--yel);color:var(--navy);border:0;font-weight:800;padding:12px 22px;border-radius:4px;text-decoration:none;display:inline-block;transition:.2s}
+.btn:hover{background:#ffd65c;transform:translateY(-1px)}
+.btn.o{background:none;color:#fff;border:2px solid #ffffff66}.btn.o:hover{border-color:var(--yel);background:none}
+.menu{display:none}
+.hero{background:linear-gradient(110deg,#0b1b2d 40%,#10243A 100%);color:#fff;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:auto 0 0 0;height:14px;background:repeating-linear-gradient(-45deg,var(--yel) 0 18px,#10243A 18px 36px)}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:center;padding-top:72px;padding-bottom:96px}
+h1{font-size:clamp(2.2rem,5.2vw,4.2rem);line-height:1.04;font-weight:800;margin:0 0 18px;letter-spacing:-.01em}
+.hero p{max-width:52ch;color:#cbd5de;font-size:1.1rem}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.art{aspect-ratio:1;position:relative;transition:transform .2s}
+.art svg{width:100%;height:100%}
+.ring{position:absolute;inset:6%;border:2px dashed #ffc92855;border-radius:50%;animation:spin 40s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+section{padding:68px 0}.soft{background:var(--soft)}
+h2{font-size:clamp(1.6rem,3.4vw,2.4rem);margin:0 0 8px;font-weight:800;line-height:1.15}
+.sub{color:var(--steel);margin:0 0 30px;max-width:60ch}
+.grid{display:grid;gap:18px}.g4{grid-template-columns:repeat(4,1fr)}.g3{grid-template-columns:repeat(3,1fr)}
+.cat{background:var(--card);border:1px solid var(--line);border-radius:6px;overflow:hidden;text-align:left;padding:0;color:inherit;transition:.25s}
+.cat:hover{transform:translateY(-4px);border-color:var(--yel);box-shadow:0 12px 28px #10243a22}
+.cat .im{background:var(--soft);aspect-ratio:4/3;display:grid;place-items:center;overflow:hidden}
+.cat .im svg{width:46%;transition:transform .4s}.cat:hover .im svg{transform:scale(1.15)}
+.cat div.t{padding:14px 16px}.cat b{display:block}.cat span{color:var(--steel);font-size:14px}.cat em{display:block;margin-top:6px;font-style:normal;font-weight:800;font-size:14px;border-bottom:2px solid var(--yel);width:max-content}
+.tools{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+.tools input,.tools select,.f input,.f textarea,.f select{padding:11px 12px;border:1px solid var(--line);border-radius:4px;background:var(--card);color:var(--ink);font:inherit;min-width:0}
+.tools input{flex:1;min-width:200px}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:20px;padding:6px 14px;font-size:14px}.chip[aria-pressed=true]{background:var(--navy);color:#fff;border-color:var(--navy)}
+.prod{background:var(--card);border:1px solid var(--line);border-radius:6px;overflow:hidden;display:flex;flex-direction:column;animation:up .5s both}
+@keyframes up{from{opacity:0;transform:translateY(14px)}}
+.prod .im{background:var(--soft);aspect-ratio:1;display:grid;place-items:center;position:relative;cursor:pointer}
+.prod .im svg.p{width:52%}
+.heart{position:absolute;top:8px;right:8px;background:var(--card);border:1px solid var(--line);border-radius:50%;width:36px;height:36px;display:grid;place-items:center;color:var(--ink)}
+.heart svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2}.heart[aria-pressed=true]{color:#d6342c}.heart[aria-pressed=true] svg{fill:#d6342c}
+.pb{padding:14px;display:flex;flex-direction:column;gap:4px;flex:1}.pb small{color:var(--steel)}.pb b{font-size:1.02rem}
+.pr{font-weight:800;font-size:1.15rem}.st{color:#b8860b;font-size:14px}.av{font-size:13px;font-weight:600;color:#1b7a43}.av.lo{color:#b45309}
+.row{display:flex;gap:8px;margin-top:auto;padding-top:10px}.row .btn{flex:1;padding:10px}.row .q{background:none;border:1px solid var(--line);color:var(--ink);border-radius:4px;padding:0 12px;font-weight:600}
+.why .it{padding:22px;border-left:4px solid var(--yel);background:var(--card)}.why svg{width:30px;height:30px;stroke:var(--navy);fill:none;stroke-width:2}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .why svg{stroke:var(--yel)}}
+.why h3{margin:10px 0 4px}.why p{margin:0;color:var(--steel);font-size:15px}
+.ind{background:var(--navy);color:#fff;border-radius:6px;padding:26px 20px;min-height:130px;display:flex;align-items:flex-end;font-weight:800;font-size:1.15rem;position:relative;overflow:hidden;transition:.3s}
+.ind:before{content:"";position:absolute;left:0;top:0;width:100%;height:6px;background:repeating-linear-gradient(-45deg,var(--yel) 0 10px,transparent 10px 20px);transition:height .3s}
+.ind:hover:before{height:100%;opacity:.12}
+.promo{background:var(--navy);color:#fff;text-align:center}.promo p{color:#cbd5de;margin:0 auto 22px;max-width:50ch}
+.car{overflow:hidden}.track{display:flex;transition:transform .6s}.sl{flex:0 0 100%;padding:0 6px}
+.q1{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:28px;max-width:720px;margin:0 auto}
+.dots{display:flex;gap:8px;justify-content:center;margin-top:16px;align-items:center}.dots button{width:12px;height:12px;border-radius:50%;border:0;background:var(--steel);opacity:.5;padding:0}.dots button[aria-current=true]{background:var(--yel);opacity:1;width:28px;border-radius:6px}
+.news{background:var(--yel);color:var(--navy)}.news form{display:flex;gap:10px;flex-wrap:wrap}.news input{flex:1;min-width:220px;padding:13px;border:2px solid var(--navy);border-radius:4px;font:inherit}
+.news .btn{background:var(--navy);color:#fff}
+footer{background:#0b1b2d;color:#c3cdd6;padding:54px 0 24px;font-size:15px}footer .grid{grid-template-columns:1.4fr 1fr 1fr 1fr}
+footer h4{color:#fff;margin:0 0 10px}footer a{display:block;text-decoration:none;padding:3px 0}footer a:hover{color:var(--yel)}
+.copy{border-top:1px solid #ffffff22;margin-top:30px;padding-top:18px}
+.ov{position:fixed;inset:0;background:#000a;z-index:40;display:none;align-items:center;justify-content:center;padding:16px}.ov.on{display:flex}
+.md{background:var(--bg);color:var(--ink);border-radius:8px;max-width:760px;width:100%;max-height:92vh;overflow:auto;padding:26px;position:relative;animation:up .3s}
+.md .x{position:absolute;top:10px;right:10px;background:none;border:0;color:inherit;font-size:26px}
+.dt{display:grid;grid-template-columns:1fr 1fr;gap:22px}.dt .im{background:var(--soft);border-radius:6px;display:grid;place-items:center;aspect-ratio:1}.dt .im svg{width:55%}
+.dr{position:fixed;top:0;right:0;bottom:0;width:min(420px,100%);background:var(--bg);color:var(--ink);z-index:50;transform:translateX(100%);transition:transform .35s;display:flex;flex-direction:column;padding:20px;padding-top:calc(20px + env(safe-area-inset-top,0px));padding-bottom:calc(20px + env(safe-area-inset-bottom,0px))}.dr.on{transform:none}
+.li{display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}.li .th{width:54px;height:54px;background:var(--soft);display:grid;place-items:center;border-radius:4px}.li .th svg{width:60%}
+.qty{display:flex;align-items:center;gap:6px}.qty button{width:28px;height:28px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:4px}
+.f{display:grid;gap:10px}.note{background:var(--soft);border-left:4px solid var(--yel);padding:10px 12px;font-size:14px;border-radius:4px}
+.sk{background:linear-gradient(90deg,var(--soft) 25%,var(--line) 50%,var(--soft) 75%);background-size:200% 100%;animation:sh 1.2s infinite;border-radius:6px;aspect-ratio:3/4}@keyframes sh{to{background-position:-200% 0}}
+@media(max-width:900px){.g4{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(2,1fr)}.hero .wrap{grid-template-columns:1fr}.art{max-width:300px}footer .grid{grid-template-columns:1fr 1fr}.links{display:none;position:absolute;top:64px;left:0;right:0;background:var(--navy);flex-direction:column;padding:14px 20px;gap:12px}.links.on{display:flex}.menu{display:grid}.nsh{display:none}.dt{grid-template-columns:1fr}}
+@media(max-width:480px){.g4,.g3{grid-template-columns:1fr 1fr;gap:10px}.pb{padding:10px}.row{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="bar">Your Trusted Partner in Workplace Safety &nbsp;|&nbsp; Free shipping on eligible orders &nbsp;|&nbsp; Premium quality safety equipment</div>
+<nav id="nav"><div class="wrap">
+<a class="logo" href="#home"><i></i>JUNAID COMPANY</a>
+<div class="links" id="links"><a href="#home">Home</a><a href="#shop">Shop</a><a href="#cats">Categories</a><a href="#about">About Us</a><a href="#contact">Contact</a></div>
+<button class="ic" aria-label="Search products" onclick="document.getElementById('q').focus();location.hash='shop'"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
+<button class="ic" aria-label="Open cart" onclick="openCart()"><svg viewBox="0 0 24 24"><path d="M3 4h2l2.4 11h10l2-8H6"/><circle cx="9" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/></svg><span class="badge" id="cc">0</span></button>
+<a class="btn nsh" href="#shop" style="padding:9px 16px">Shop Now</a>
+<button class="ic menu" aria-label="Menu" onclick="document.getElementById('links').classList.toggle('on')"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+</div></nav>
+
+<header class="hero" id="home"><div class="wrap">
+<div><h1>PROTECTING PEOPLE. POWERING INDUSTRIES.</h1>
+<p>Discover premium-quality industrial safety equipment designed to protect your workforce, enhance workplace safety, and deliver confidence on every job.</p>
+<div class="cta"><a class="btn" href="#shop">Explore Products</a><a class="btn o" href="#contact">Contact Our Team</a></div></div>
+<div class="art" id="art"><div class="ring"></div>
+<svg viewBox="0 0 200 200" aria-hidden="true"><path d="M30 120a70 70 0 0 1 140 0z" fill="#FFC928"/><rect x="20" y="118" width="160" height="16" rx="6" fill="#e6b11a"/><path d="M92 52h16v68H92z" fill="#e6b11a"/><path d="M60 100a45 45 0 0 1 30-36" stroke="#fff6" stroke-width="6" fill="none" stroke-linecap="round"/><rect x="55" y="150" width="90" height="14" rx="7" fill="#ffffff22"/></svg></div>
+</div></header>
+
+<section id="cats"><div class="wrap"><h2>Explore our safety collection</h2><p class="sub">Eight categories of protection, from head to toe.</p><div class="grid g4" id="catg"></div></div></section>
+
+<section class="soft" id="shop"><div class="wrap"><h2>Our best-selling products</h2><p class="sub">Search, filter and sort the range.</p>
+<div class="tools"><input id="q" type="search" placeholder="Search products" aria-label="Search products"><select id="so" aria-label="Sort"><option value="f">Featured</option><option value="pa">Price: low to high</option><option value="pd">Price: high to low</option><option value="r">Top rated</option></select></div>
+<div class="tools" id="chips" role="group" aria-label="Filter by category"></div>
+<div class="grid g3" id="pg"></div><p id="none" class="sub" hidden>No products match. Clear the search or choose All.</p></div></section>
+
+<section class="why" id="about"><div class="wrap"><h2>Why choose JUNAID COMPANY?</h2><p class="sub">Equipment you can trust, backed by people who answer the phone.</p><div class="grid g3" id="wg"></div></div></section>
+
+<section class="soft"><div class="wrap"><h2>Industries we serve</h2><p class="sub">Safety gear matched to the hazards of each worksite.</p><div class="grid g3" id="ig"></div></div></section>
+
+<section class="promo"><div class="wrap"><h2>SAFETY IS NOT AN OPTION. IT'S A PRIORITY.</h2><p>Equip your workforce with dependable safety essentials from JUNAID COMPANY.</p><a class="btn" href="#shop">EXPLORE OUR COLLECTION</a></div></section>
+
+<section><div class="wrap"><h2>What customers say</h2><p class="sub">Sample feedback shown as a layout placeholder. Replace with verified customer reviews before launch.</p>
+<div class="car" id="car"><div class="track" id="tr"></div></div><div class="dots" id="dots"></div></div></section>
+
+<section class="news"><div class="wrap"><h2>STAY UPDATED. STAY PROTECTED.</h2><p>Subscribe to receive updates about new products, exclusive offers, and workplace safety essentials.</p>
+<form id="nf"><input type="email" required placeholder="Your email address" aria-label="Email"><button class="btn">Subscribe</button></form><p id="nm" role="status"></p></div></section>
+
+<section id="contact"><div class="wrap"><h2>Contact our team</h2><p class="sub">Tell us what your crew needs and we will reply with options.</p>
+<form class="f" id="cf" style="max-width:560px"><input required placeholder="Name" aria-label="Name"><input type="email" required placeholder="Email" aria-label="Email"><textarea required rows="4" placeholder="Message" aria-label="Message"></textarea><button class="btn" style="width:max-content">Send message</button><p id="cm" role="status"></p></form></div></section>
+
+<footer><div class="wrap"><div class="grid">
+<div><h4>JUNAID COMPANY</h4><p>Industrial safety equipment and PPE for teams that cannot afford shortcuts.</p><a href="#">Facebook</a><a href="#">LinkedIn</a><a href="#">Instagram</a></div>
+<div><h4>Quick Links</h4><a href="#home">Home</a><a href="#about">About Us</a><a href="#shop">Shop</a><a href="#contact">Contact</a></div>
+<div><h4>Product Categories</h4><a href="#shop">Safety Helmets</a><a href="#shop">Safety Gloves</a><a href="#shop">Safety Shoes</a><a href="#shop">Reflective Vests</a><a href="#shop">Safety Accessories</a></div>
+<div><h4>Customer Support</h4><a href="#contact">Contact Us</a><a href="#">FAQs</a><a href="#">Shipping Policy</a><a href="#">Return Policy</a><a href="#">Privacy Policy</a></div>
+</div><div class="copy">© 2026 JUNAID COMPANY. All Rights Reserved.</div></div></footer>
+
+<div class="ov" id="mo" onclick="if(event.target===this)closeM()"><div class="md" role="dialog" aria-modal="true" aria-label="Product details"><button class="x" aria-label="Close" onclick="closeM()">×</button><div id="mb"></div></div></div>
+<aside class="dr" id="dr" aria-label="Cart"><div style="display:flex;justify-content:space-between;align-items:center"><h2 style="font-size:1.4rem;margin:0" id="dh">Your cart</h2><button class="ic" style="color:inherit;font-size:24px" aria-label="Close cart" onclick="closeCart()">×</button></div><div id="db" style="flex:1;overflow:auto"></div></aside>
+
+<script>
+const $=s=>document.querySelector(s);
+const ICON={
+helmet:'<path d="M20 70a40 40 0 0 1 80 0z" fill="#FFC928"/><rect x="12" y="68" width="96" height="10" rx="5" fill="#e6b11a"/><rect x="54" y="28" width="12" height="40" fill="#e6b11a"/>',
+glove:'<path d="M38 100V50M52 100V32M66 100V30M80 100V42" stroke="#10243A" stroke-width="12" stroke-linecap="round"/><path d="M34 70h52v36a14 14 0 0 1-14 14H48a14 14 0 0 1-14-14z" fill="#FFC928"/>',
+boot:'<path d="M40 20h30v44l34 14v22H30V20z" fill="#10243A"/><rect x="30" y="92" width="80" height="10" fill="#FFC928"/>',
+vest:'<path d="M34 20l16 8 10 12 10-12 16-8 10 30-10 6v50H34V56l-10-6z" fill="#FFC928"/><path d="M34 70h52M34 88h52" stroke="#fff" stroke-width="7"/>',
+goggle:'<rect x="14" y="40" width="92" height="40" rx="18" fill="#10243A"/><rect x="22" y="47" width="76" height="26" rx="12" fill="#9fd8f0"/>',
+ear:'<path d="M26 70V50a34 34 0 0 1 68 0v20" stroke="#10243A" stroke-width="8" fill="none"/><rect x="14" y="62" width="22" height="38" rx="9" fill="#FFC928"/><rect x="84" y="62" width="22" height="38" rx="9" fill="#FFC928"/>',
+mask:'<path d="M24 40q36-14 72 0v28q0 30-36 42-36-12-36-42z" fill="#10243A"/><circle cx="42" cy="78" r="11" fill="#FFC928"/><circle cx="78" cy="78" r="11" fill="#FFC928"/>',
+harness:'<path d="M36 18l24 40 24-40M60 58v30M34 100l26-12 26 12" stroke="#10243A" stroke-width="9" fill="none" stroke-linejoin="round"/><circle cx="60" cy="58" r="9" fill="#FFC928"/>'};
+const svg=(k,c='')=>`<svg class="${c}" viewBox="0 0 120 120" aria-hidden="true">${ICON[k]}</svg>`;
+const CATS=[['helmet','Safety Helmets & Hard Hats','Impact-rated head protection for every site.'],['glove','Industrial Safety Gloves','Cut, heat and chemical resistant grip.'],['boot','Safety Shoes & Boots','Steel-toe and slip-resistant footwear.'],['vest','Reflective Safety Vests','High-visibility day and night.'],['goggle','Safety Goggles & Face Shields','Clear eye and face protection.'],['ear','Ear Protection Equipment','Reduce noise exposure on loud floors.'],['mask','Respiratory Protection','Masks and respirators for dust and fumes.'],['harness','Fall Protection Equipment','Harnesses and lanyards for work at height.']];
+const P=[
+{id:1,n:'Industrial Safety Helmet',c:0,p:18.5,r:4.8,v:214,s:'In stock',d:'Impact-resistant HDPE shell with a 6-point suspension and adjustable ratchet.'},
+{id:2,n:'Heavy-Duty Protective Gloves',c:1,p:12,r:4.6,v:158,s:'In stock',d:'Reinforced palm and knuckle guard for rough handling and tool work.'},
+{id:3,n:'Steel-Toe Safety Boots',c:2,p:64,r:4.7,v:302,s:'Low stock',d:'Steel toe cap, anti-slip rubber outsole and puncture-resistant midsole.'},
+{id:4,n:'High-Visibility Reflective Vest',c:3,p:9.5,r:4.5,v:420,s:'In stock',d:'Fluorescent fabric with two reflective bands. Zip front, one chest pocket.'},
+{id:5,n:'Anti-Fog Safety Goggles',c:4,p:8,r:4.4,v:97,s:'In stock',d:'Anti-fog, scratch-resistant lens with indirect ventilation and soft seal.'},
+{id:6,n:'Industrial Ear Protection',c:5,p:15,r:4.6,v:133,s:'In stock',d:'Padded over-ear defenders with an adjustable headband for long shifts.'},
+{id:7,n:'FFP2 Respirator Mask (Pack of 10)',c:6,p:22,r:4.3,v:76,s:'In stock',d:'Filters fine dust and particulates. Soft nose clip and elastic headbands.'},
+{id:8,n:'Full-Body Safety Harness',c:7,p:58,r:4.8,v:88,s:'Low stock',d:'Adjustable full-body harness with a rear D-ring for work at height.'}];
+const WHY=[['Premium Quality Products','Every item is checked before it ships.','M12 2l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z'],['Reliable Workplace Protection','Gear built for daily industrial use.','M12 2l8 4v6c0 5-3 8-8 10-5-2-8-5-8-10V6z'],['Competitive Pricing','Fair prices, including bulk orders.','M12 2v20M17 6H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6'],['Wide Product Selection','Head-to-toe PPE from one supplier.','M3 3h8v8H3zM13 3h8v8h-8zM3 13h8v8H3zM13 13h8v8h-8z'],['Customer Support','Real people to help you choose.','M4 12a8 8 0 0 1 16 0v5a3 3 0 0 1-3 3h-2M4 12v3h3v-4H4z'],['Fast & Reliable Delivery','Orders packed and dispatched quickly.','M2 6h12v10H2zM14 10h4l3 3v3h-7zM6 19a2 2 0 1 0 0-.1M17 19a2 2 0 1 0 0-.1']];
+const IND=['Construction','Manufacturing','Oil & Gas','Engineering','Warehousing & Logistics','Electrical & Industrial Services'];
+const REV=[['Sample reviewer A','Site Manager, Construction','Helmets and vests arrived on time and the quality is consistent across the batch.'],['Sample reviewer B','Safety Officer, Manufacturing','Gloves and goggles held up well through a full shift. Ordering again.'],['Sample reviewer C','Procurement Lead, Logistics','Support helped us size a bulk order for the whole warehouse team.']];
+let cart=JSON.parse('[]'),wish=new Set(),cat=-1;
+const money=n=>'$'+n.toFixed(2);
+const stars=r=>'★'.repeat(Math.round(r))+'☆'.repeat(5-Math.round(r));
+$('#catg').innerHTML=CATS.map((c,i)=>`<button class="cat" onclick="setCat(${i})"><div class="im">${svg(c[0])}</div><div class="t"><b>${c[1]}</b><span>${c[2]}</span><em>Explore Category</em></div></button>`).join('');
+$('#wg').innerHTML=WHY.map(w=>`<div class="it"><svg viewBox="0 0 24 24"><path d="${w[2]}"/></svg><h3>${w[0]}</h3><p>${w[1]}</p></div>`).join('');
+$('#ig').innerHTML=IND.map(i=>`<div class="ind">${i}</div>`).join('');
+function chips(){$('#chips').innerHTML=['All',...CATS.map(c=>c[1])].map((n,i)=>`<button class="chip" aria-pressed="${cat===i-1}" onclick="setCat(${i-1})">${n}</button>`).join('')}
+function setCat(i){cat=i;chips();render();location.hash='shop'}
+function render(){
+ const q=$('#q').value.toLowerCase().trim(),so=$('#so').value;
+ let l=P.filter(p=>(cat<0||p.c===cat)&&(!q||(p.n+CATS[p.c][1]).toLowerCase().includes(q)));
+ if(so==='pa')l.sort((a,b)=>a.p-b.p);if(so==='pd')l.sort((a,b)=>b.p-a.p);if(so==='r')l.sort((a,b)=>b.r-a.r);
+ $('#none').hidden=l.length>0;
+ $('#pg').innerHTML=l.map((p,i)=>`<article class="prod" style="animation-delay:${i*60}ms"><div class="im" onclick="quick(${p.id})">${svg(CATS[p.c][0],'p')}<button class="heart" aria-label="Wishlist" aria-pressed="${wish.has(p.id)}" onclick="event.stopPropagation();fav(${p.id})"><svg viewBox="0 0 24 24"><path d="M12 21s-8-5-8-11a4.5 4.5 0 0 1 8-3 4.5 4.5 0 0 1 8 3c0 6-8 11-8 11z"/></svg></button></div><div class="pb"><small>${CATS[p.c][1]}</small><b>${p.n}</b><span class="st" aria-label="${p.r} out of 5">${stars(p.r)} <span style="color:var(--steel)">${p.r} (${p.v})</span></span><span class="pr">${money(p.p)}</span><span class="av ${p.s==='Low stock'?'lo':''}">${p.s}</span><div class="row"><button class="btn" onclick="add(${p.id})">Add to Cart</button><button class="q" onclick="quick(${p.id})">Quick View</button></div></div></article>`).join('');
+}
+function fav(id){wish.has(id)?wish.delete(id):wish.add(id);render()}
+function quick(id){const p=P.find(x=>x.id===id);$('#mb').innerHTML=`<div class="dt"><div class="im">${svg(CATS[p.c][0])}</div><div style="display:grid;gap:8px;align-content:start"><small>${CATS[p.c][1]}</small><h2 style="font-size:1.6rem">${p.n}</h2><span class="st">${stars(p.r)} ${p.r} (${p.v} reviews)</span><span class="pr" style="font-size:1.5rem">${money(p.p)}</span><span class="av">${p.s}</span><p>${p.d}</p><button class="btn" onclick="add(${p.id});closeM()">Add to Cart</button></div></div>`;$('#mo').classList.add('on')}
+function closeM(){$('#mo').classList.remove('on')}
+function add(id){const l=cart.find(x=>x.id===id);l?l.q++:cart.push({id,q:1});upd();const b=$('#cc');b.classList.remove('pop');void b.offsetWidth;b.classList.add('pop')}
+function upd(){$('#cc').textContent=cart.reduce((a,b)=>a+b.q,0);if($('#dr').classList.contains('on'))drawCart()}
+function chg(id,d){const l=cart.find(x=>x.id===id);l.q+=d;if(l.q<1)cart=cart.filter(x=>x!==l);upd()}
+function openCart(){drawCart();$('#dr').classList.add('on')}
+function closeCart(){$('#dr').classList.remove('on')}
+function drawCart(){
+ $('#dh').textContent='Your cart';
+ if(!cart.length){$('#db').innerHTML='<p>Your cart is empty. Browse the shop and add a product to start.</p><a class="btn" href="#shop" onclick="closeCart()">Browse products</a>';return}
+ const t=cart.reduce((a,l)=>a+P.find(p=>p.id===l.id).p*l.q,0);
+ $('#db').innerHTML=cart.map(l=>{const p=P.find(x=>x.id===l.id);return `<div class="li"><div class="th">${svg(CATS[p.c][0])}</div><div style="flex:1"><b style="font-size:14px">${p.n}</b><div>${money(p.p)}</div></div><div class="qty"><button aria-label="Decrease" onclick="chg(${p.id},-1)">−</button><span>${l.q}</span><button aria-label="Increase" onclick="chg(${p.id},1)">+</button></div></div>`}).join('')+`<p style="display:flex;justify-content:space-between;font-weight:800;font-size:1.1rem;margin:16px 0"><span>Subtotal</span><span>${money(t)}</span></p><button class="btn" style="width:100%" onclick="checkout()">Proceed to checkout</button>`;
+}
+function checkout(){
+ $('#dh').textContent='Checkout';
+ $('#db').innerHTML=`<form class="f" onsubmit="event.preventDefault();this.querySelector('.note').hidden=false;this.querySelector('.note').scrollIntoView()" style="margin-top:14px"><input required placeholder="Full name" aria-label="Full name"><input type="email" required placeholder="Email" aria-label="Email"><input required placeholder="Phone" aria-label="Phone"><input required placeholder="Street address" aria-label="Address"><input required placeholder="City" aria-label="City"><select aria-label="Payment method" disabled><option>Payment gateway not connected</option></select><button class="btn">Place order</button><p class="note" hidden role="alert">This order was not placed and nothing was charged. The store has no payment gateway or order database connected yet. Connect Supabase and a payment provider to enable orders.</p></form><button class="q" style="margin-top:10px;background:none;border:0;color:inherit;text-decoration:underline" onclick="drawCart();$('#dh').textContent='Your cart'">Back to cart</button>`;
+}
+$('#q').oninput=render;$('#so').onchange=render;
+$('#nf').onsubmit=e=>{e.preventDefault();$('#nm').textContent='Newsletter sign-up is not connected to an email service yet, so your address was not saved.'};
+$('#cf').onsubmit=e=>{e.preventDefault();$('#cm').textContent='The contact form has no backend connected yet, so this message was not sent. Please use the contact details once they are added.'};
+window.addEventListener('scroll',()=>$('#nav').classList.toggle('s',scrollY>40),{passive:true});
+document.querySelectorAll('.links a').forEach(a=>a.onclick=()=>$('#links').classList.remove('on'));
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeM();closeCart()}});
+const mq=matchMedia('(prefers-reduced-motion:reduce)');
+if(!mq.matches)document.addEventListener('mousemove',e=>{if(scrollY<700){$('#art').style.transform=`translate(${(e.clientX/innerWidth-.5)*-14}px,${(e.clientY/innerHeight-.5)*-14}px)`}});
+// testimonials
+$('#tr').innerHTML=REV.map(r=>`<div class="sl"><div class="q1"><div class="st" style="font-size:18px">★★★★★</div><p style="font-size:1.15rem">${r[2]}</p><b>${r[0]}</b><div style="color:var(--steel)">${r[1]}</div></div></div>`).join('');
+let ti=0;const go=i=>{ti=(i+REV.length)%REV.length;$('#tr').style.transform=`translateX(-${ti*100}%)`;[...$('#dots').children].forEach((d,j)=>d.setAttribute('aria-current',j===ti))};
+$('#dots').innerHTML=REV.map((_,i)=>`<button aria-label="Review ${i+1}" onclick="go(${i});clearInterval(tm)"></button>`).join('');
+let tm;if(!mq.matches)tm=setInterval(()=>go(ti+1),5000);go(0);
+// skeleton then products
+$('#pg').innerHTML='<div class="sk"></div><div class="sk"></div><div class="sk"></div>';chips();setTimeout(render,500);
+</script>
+</body>
+</html>
